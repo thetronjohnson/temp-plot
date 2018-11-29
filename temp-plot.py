@@ -46,6 +46,10 @@ def layout():
                     if x[i]>=0 and x[i]<8:
                         x_s.append(x[i])
                         y_s.append(y[i])
+                
+                plt.xlabel("Time(hours)")
+                plt.ylabel("Temperature(degree Celsius)")
+                plt.title("Time vs Temperature")        
                 plt.grid(True)
                 plt.plot(x_s,y_s)
                 plt.show()
@@ -73,6 +77,10 @@ def layout():
                     if x[i]>=8 and x[i]<16:
                         x_s.append(x[i])
                         y_s.append(y[i])
+                
+                plt.xlabel("Time(hours)")
+                plt.ylabel("Temperature(degree Celsius)")
+                plt.title("Time vs Temperature")
                 plt.grid(True)
                 plt.plot(x_s,y_s)
                 plt.show()
@@ -99,6 +107,10 @@ def layout():
                     if x[i]>=16 and x[i]<24:
                         x_s.append(x[i])
                         y_s.append(y[i])
+                        
+                plt.xlabel("Time(hours)")
+                plt.ylabel("Temperature(degree Celsius)")
+                plt.title("Time vs Temperature")
                 plt.grid(True)
                 plt.plot(x_s,y_s)
                 plt.show()
